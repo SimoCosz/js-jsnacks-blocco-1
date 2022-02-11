@@ -1,7 +1,16 @@
 const numeri = []
 
-for (i = 0; i < 5; i++){
+// for (i = 0; i < 5; i++){
+//   let numeroUtente = parseInt( prompt ('Inserisci un numero') )
+//   numeri.push(numeroUtente)
+// }
+// console.log(numeri)
+
+
+
+while (numeri.length <= 4 ){
   let numeroUtente = parseInt( prompt ('Inserisci un numero') )
+  if (numeroUtente !== isNaN)
   numeri.push(numeroUtente)
 }
 console.log(numeri)
@@ -11,4 +20,6 @@ for(i = 0; i < 5; i++){
   totale += numeri[i]
 }
 console.log(totale)
+
+
 // const totale = numeri[0]+numeri[1]+numeri[2]+numeri[3]+numeri[4]
